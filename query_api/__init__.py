@@ -1,0 +1,1 @@
+from .queryRestApi import query_api_func
