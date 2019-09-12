@@ -2,7 +2,7 @@
 # ####################################################
 #
 
-NAME := "nitindas/query_external_api"
+NAME := "nitindas/query-external-api"
 TAG := $$(git log --pretty=format:'' | wc -l)
 # TAG  := $$(git log -1 --pretty=%h)
 IMG := ${NAME}:${TAG}
